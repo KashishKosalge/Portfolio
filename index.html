@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>    
+        <div class="cover cover-right turn"></div>
+        <div class="book">
+        <!--profile page-->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="kk.jpg" alt="" >
+                    <h1>Kashish Kosalge</h1>
+                    <h4>Web Developer</h4>
+                    <p>Hello, I'm Kashish Kosalge, currently in my 3rd year pursuing a Bachelor's degree in Computer Engineering at MESWCOE. I am passionate about creating user-friendly websites and have gained expertise in various programming languages and frameworks. Excited to tackle new challenges in the dynamic field of web development.</p>
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (education) -->
+                <div class="page-front">
+                    <h1 class="title">Education</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="fa-solid fa-calendar-days"></i>2019</span>
+                            <h4>X (SSC)</h4>
+                            <p><strong>School Name :</strong></p>
+                            <p>Shri Siddheshwar Vidyalaya, Basmath.</p>
+                            <p><strong>Percentage :</strong></p>
+                            <p>87.20%</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class="fa-solid fa-calendar-days"></i>2021</span>
+                            <h4>XII (HSC)</h4>
+                            <p><strong>School Name :</strong></p>
+                            <p>Modern Higher Secondary School, Basmath.</p>
+                            <p><strong>Percentage :</strong></p>
+                            <p>97.50%</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class="fa-solid fa-calendar-days"></i>2021-25</span>
+                            <h4>Computer Engineering</h4>
+                            <p><strong>School Name :</strong></p>
+                            <p>Modern Education Society's College of Engineering, Pune.</p>
+                            <p><strong>Percentage :</strong></p>
+                            <p>76.70%</p>
+                        </div>
+                    </div>
+                    <span class="number-page">1</span>
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1"><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+                
+                <div class="page-back">
+                    <!-- page 2 (Skills) -->
+                    <h1 class="title">Skills</h1>
+                    <div class="skills-box">
+                        <div class="content">
+                            <span><i class="fa-brands fa-html5"></i>HTML</span>
+                            <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                            <span><i class="fa-brands fa-js"></i>JavaScript</span>
+                            <span><i class="fa-brands fa-bootstrap"></i>Bootstrap</span>
+                            <span><i class="fa-brands fa-java"></i>Java</span>
+                            <span><i class="fa-solid fa-database"></i>SQL</span>
+                            <span><i class="fa-solid fa-database"></i>MongoDB</span>
+                            <span><i class="fa-brands fa-figma"></i>Figma</span>
+                        </div>
+                    </div>
+                    <span class="number-page">2</span>
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1"><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+            </div>
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+            <!-- page 3 (Projects) -->
+            <div class="page-front">
+                <h1 class="title">Latest Project</h1>
+                <div class="portfolio-box">
+                    <div class="img-box">
+                        <img src="Simon.png" alt="">
+                    </div>
+                    <div class="info-box">
+                        <div class="info-title">
+                            <h3>Simon Game</h3>
+                        </div>
+                        <!-- <div class="info-tech">
+                            <p><strong>Tech Used:</strong> HTML, CSS & JavaScript</p>
+                            <p>.</p>
+                        </div> -->
+                    </div>
+    
+                    <div class="btn-box">
+                        <a href="#" class="btn">Source Code</a>
+                        <a href="#" class="btn">More Projects</a>
+                    </div>
+                </div>
+                <span class="number-page">3</span>
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-2"><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+            <!-- page 4 (Contact) -->
+            <div class="page-back">
+                <h1 class="title">Contact Me</h1>
+                <div class="contact-box">
+                    <form action="#">
+                        <input type="text" class="field" placeholder="Full Name" required>
+                        <input type="email" class="field" placeholder="Email Address" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your message" class="field" required></textarea>
+                        <input type="submit" class="btn" value="Send Message">
+                    </form>
+                </div>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <span class="number-page">4</span>
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-2"><i class="fa-solid fa-chevron-left"></i></span>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
